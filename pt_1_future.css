@@ -1,3 +1,14 @@
+#titulo {
+  max-width: 1500px;        
+  margin: 0 auto;         
+  font-size: clamp(18px, 3.5vw, 36px);
+  line-height: 1.2;
+  text-align: center;
+  transition: font-size 0.18s ease;
+}
+
+
+
 img {  
     display: block;
     margin: 0 auto;
@@ -376,3 +387,4 @@ footer {
     padding: 0 8px;
   }
 }
+
